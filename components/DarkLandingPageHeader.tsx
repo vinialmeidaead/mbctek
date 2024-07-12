@@ -49,7 +49,7 @@ const EnhancedDarkLandingPageHeader = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <img className='h-56 mx-auto' src="https://i.ibb.co/GkngFSb/LOGO-FUNDO-TRANSPARENTE.png" alt="IT Solution & EAD Logo"/>
+          <img className='h-36 mb-20 mx-auto' src="https://i.ibb.co/j8GTJ2Y/LOGO-FUNDO-TRANSPARENTE.png" alt="IT Solution & EAD Logo"/>
         </motion.div>
         
         <motion.h1 

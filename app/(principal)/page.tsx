@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import CourseInfoSection from "@/components/Cursoinfo";
 import DarkLandingPageHeader from "../../components/DarkLandingPageHeader";
 import Modulos from "@/components/Modulos";
@@ -11,12 +11,19 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center bg-gray-900">
       <DarkLandingPageHeader />
-      <CourseInfoSection/>
-      <Modulos/>
-      <Pronto/>
-      <Oferta/>
-      <FAQSection/>
-      <CallToActionSection/>
+      <CourseInfoSection />
+      <Modulos />
+      <Pronto />
+      <Oferta />
+      <FAQSection />
+      <CallToActionSection />
+      <footer>
+        <p className="bg-gradient-to-r from-green-400 to-blue-500 text-center text-blue-950 py-4 ">
+          © 2024 <b>MBCTEK IT Solution & EAD</b> - Todos os Direitos Reservados
+          || Desenvolvido e Licenciado por{" "}
+          <a href="https://ead.support" className="font-bold hover:underline">EAD Support</a>
+        </p>
+      </footer>
     </div>
   );
 }

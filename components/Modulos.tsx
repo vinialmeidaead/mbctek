@@ -82,7 +82,7 @@ const CourseCurriculumSection = () => {
 
   const modules = [
     {
-      title: "Módulo 1: Começando a falar da ferramenta IBM Cognos Analytics",
+      title: "Módulo 01: Começando a falar da ferramenta IBM Cognos Analytics",
       topics: [
         "Apresentação das funcionalidades do Portal IBM Cognos",
         "Criação de Relatório Lista com tabelas e utilização de templates",

@@ -12,7 +12,7 @@ const CallToActionSection = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-            Decida Agora e Lidera Amanhã
+            Decida agora e lidere amanhã
           </h2>
           <p className="text-xl text-gray-300 mb-8">
             Não perca a oportunidade de transformar sua carreira e se tornar um especialista em uma das ferramentas mais poderosas de Business Intelligence no mercado. Inscreva-se agora para garantir seu lugar no futuro dos dados e dar um grande salto em sua carreira profissional.

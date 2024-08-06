@@ -17,13 +17,14 @@ const CallToActionSection = () => {
           <p className="text-xl text-gray-300 mb-8">
             Não perca a oportunidade de transformar sua carreira e se tornar um especialista em uma das ferramentas mais poderosas de Business Intelligence no mercado. Inscreva-se agora para garantir seu lugar no futuro dos dados e dar um grande salto em sua carreira profissional.
           </p>
-          <motion.button
+          <motion.a
             className="bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform transition duration-300 hover:from-green-600 hover:to-blue-600"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            href="#oferta"
           >
             GARANTIR MINHA MATRÍCULA
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         <motion.div

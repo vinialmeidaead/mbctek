@@ -82,13 +82,14 @@ const CourseOutcomesAndCTA = () => {
           <p className="text-2xl font-bold text-green-400 mb-8">
             Aproveite a oferta limitada e comece hoje mesmo!
           </p>
-          <motion.button 
+          <motion.a 
             className="bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transform transition duration-300 hover:from-green-600 hover:to-blue-600"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            href="#oferta"
           >
             GARANTIR MINHA MATRÍCULA
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         <motion.div 

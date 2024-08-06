@@ -178,13 +178,15 @@ const CourseCurriculumSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          <motion.button
+          <motion.a
             className="bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform transition duration-300 hover:from-green-600 hover:to-blue-600"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            href="#oferta"
           >
             GARANTIR MINHA MATRÍCULA
-          </motion.button>
+            
+          </motion.a>
         </motion.div>
       </div>
     </div>

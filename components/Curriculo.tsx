@@ -42,7 +42,7 @@ const CurriculumSection = () => {
           <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
             Conheça seu Professor
           </h2>
-          <p className="text-xl text-gray-300">Professor Alessandro Moraes</p>
+          <p className="text-xl text-gray-300">Alessandro Moraes</p>
         </motion.div>
 
         <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8 ">

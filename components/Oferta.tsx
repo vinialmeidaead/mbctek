@@ -17,6 +17,7 @@ const CombinedOffersBanner = () => {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center text-white w-full relative overflow-hidden"
+      id="oferta"
       style={{
         background:
           "linear-gradient(45deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
@@ -68,13 +69,14 @@ const CombinedOffersBanner = () => {
               <br />
               12x R$ 262,98
             </p>
-            <motion.button
+            <motion.a
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg shadow-lg transform hover:scale-105 transition duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="https://mbctek.eadplataforma.app/checkout/offer/course/11/8aanrjirlk5j"
             >
               GARANTIR MINHA MATRÍCULA
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           {/* Oferta para Líderes */}

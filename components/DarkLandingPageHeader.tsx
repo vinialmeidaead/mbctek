@@ -100,16 +100,17 @@ const EnhancedDarkLandingPageHeader = () => {
           </p>
         </motion.div>
 
-        <motion.button
+        <motion.a
           className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
+          href="#oferta"
         >
           GARANTIR MINHA MATRÍCULA
-        </motion.button>
+        </motion.a>
       </div>
 
       {/* Interactive mouse follower */}

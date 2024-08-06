@@ -6,6 +6,7 @@ import Pronto from "@/components/Pronto";
 import Oferta from "@/components/Oferta";
 import FAQSection from "@/components/faq";
 import CallToActionSection from "@/components/Calltoaction";
+import CurriculumSection from "@/components/Curriculo";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CourseInfoSection />
       <Modulos />
       <Pronto />
+      <CurriculumSection/>
       <Oferta />
       <FAQSection />
       <CallToActionSection />

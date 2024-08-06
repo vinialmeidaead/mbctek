@@ -104,10 +104,9 @@ const CourseCurriculumSection = () => {
       ],
     },
     {
-      title: "Módulo 03: Módulo de dados e Conjunto de dados",
+      title: "Módulo 03: Módulo de dados",
       topics: [
         "Criação de Módulo de Dados",
-        "Criação de Conjunto de Dados e Cardinalidade",
       ],
     },
     {

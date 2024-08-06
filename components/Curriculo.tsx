@@ -93,13 +93,14 @@ const CurriculumSection = () => {
           <p className="text-xl text-gray-300 mb-6">
             Aprenda com um dos maiores especialistas em IBM Cognos do Brasil!
           </p>
-          <motion.button 
+          <motion.a 
             className="bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform transition duration-300 hover:from-green-600 hover:to-blue-600"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            href="#oferta"
           >
             COMECE SUA JORNADA AGORA
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </div>

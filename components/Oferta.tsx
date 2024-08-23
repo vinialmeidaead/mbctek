@@ -61,11 +61,9 @@ const CombinedOffersBanner = () => {
               Oferta Geral
             </h2>
             <p className="text-xl text-gray-300 mb-4">
-              R$ 3.999,00 por apenas R$ 2.999,00 para as primeiras 50 vagas
-              <br />
-              Acesso contínuo às atualizações pelo período de 12 meses
-              <br />
-              12x R$ 249,91
+              R$ 3.999,00 por apenas R$ 2.999,00 à vista para as primeiras 50
+              vagas. Acesso contínuo às atualizações pelo período de 12 meses.<br/>
+              Ou parcelado em 12x R$ 249,91
             </p>
             <motion.a
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg shadow-lg transform hover:scale-105 transition duration-300"

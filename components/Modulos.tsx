@@ -100,7 +100,7 @@ const CourseCurriculumSection = () => {
       title: "Módulo 02: Importação de dados externos",
       topics: [
         "Importação de dados externos através de um Módulo de Dados",
-        "Importação de dados externos através do portal IBM Cognos Analysis Studio",
+        "Importação de dados externos através do portal IBM Cognos Analytics",
       ],
     },
     {
@@ -154,7 +154,7 @@ const CourseCurriculumSection = () => {
             Veja Tudo o Que Você Vai Aprender
           </h2>
           <p className="text-xl text-gray-300">
-            Um currículo completo para dominar o IBM Cognos Analysis Studio
+            Um currículo completo para dominar o IBM Cognos Analytics
           </p>
         </motion.div>
 

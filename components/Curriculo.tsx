@@ -26,7 +26,7 @@ const CurriculumSection = () => {
     "Experiência em vários segmentos de negócios",
     "Diversas certificações IBM Cognos",
     "Desenvolvimento de projetos apoiando equipe IBM",
-    "Atuação em grandes empresas como Itaú, Bradesco, Santander, e muitas outras",
+    "Atuação em grandes empresas como: Itaú, Bradesco, Santander, Sicoob e muitas outras",
     "Experiência em consultorias como SOFTTEK, RESOURCE, UNIPLACE, e outras"
   ];
 

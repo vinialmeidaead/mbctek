@@ -25,7 +25,7 @@ const EnhancedCourseInfoSection = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-            Descubra o Poder do IBM Cognos Analysis Studio
+          Descubra o Poder do IBM Cognos Analytics
           </h2>
           <p className="text-xl text-gray-300">Transforme sua carreira em Business Intelligence</p>
         </motion.div>
@@ -60,9 +60,9 @@ const EnhancedCourseInfoSection = () => {
           >
             {activeTab === 'what' ? (
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-green-400">O Curso Definitivo de IBM Cognos Analysis Studio</h3>
+                <h3 className="text-2xl font-bold mb-4 text-green-400">O Curso Definitivo de IBM Cognos Analytics</h3>
                 <p className="text-lg leading-relaxed mb-6">
-                  Mergulhe no mundo do <span className="font-bold text-yellow-400">IBM Cognos Analysis Studio (Analítico)</span>, 
+                  Mergulhe no mundo do <span className="font-bold text-yellow-400">IBM Cognos Analytics (Analítico)</span>, 
                   dominando desde os fundamentos teóricos até as aplicações práticas mais avançadas. Transforme dados brutos 
                   em insights estratégicos que impulsionarão decisões de negócios revolucionárias.
                 </p>

@@ -6,7 +6,7 @@ const CourseOutcomesAndCTA = () => {
   const outcomes = [
     {
       title: "Analisar e Interpretar Dados Complexos",
-      description: "Utilize o IBM Cognos Analysis Studio para transformar grandes volumes de dados em insights claros e acionáveis que suportem decisões estratégicas.",
+      description: "Utilize o IBM Cognos Analytics para transformar grandes volumes de dados em insights claros e acionáveis que suportem decisões estratégicas.",
       icon: "📊"
     },
     {
@@ -45,7 +45,7 @@ const CourseOutcomesAndCTA = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Ao concluir o Curso Prático IBM Cognos Analysis Studio, você estará apto a:
+          Ao concluir o Curso Prático IBM Cognos Analytics, você estará apto a:
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -73,7 +73,7 @@ const CourseOutcomesAndCTA = () => {
           transition={{ duration: 0.6 }}
         >
           <h3 className="text-3xl font-bold mb-4 text-yellow-400">
-            Pronto para se Tornar um Especialista em IBM Cognos Analysis Studio?
+            Pronto para se Tornar um Especialista em IBM Cognos Analytics?
           </h3>
           <p className="text-xl mb-8">
             Inscreva-se agora e transforme sua carreira com um dos softwares de BI mais poderosos do mercado mundial. 

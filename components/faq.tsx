@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const FAQItem = ({ question, answer, isOpen, toggleOpen }:any) => {
+const FAQItem = ({ question, answer, isOpen, toggleOpen }: any) => {
   return (
     <div className="mb-4">
       <motion.button
@@ -20,7 +20,12 @@ const FAQItem = ({ question, answer, isOpen, toggleOpen }:any) => {
           viewBox="0 0 24 24"
           stroke="currentColor"
         >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
         </svg>
       </motion.button>
       {isOpen && (
@@ -43,24 +48,31 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "Preciso ter conhecimentos prévios em Business Intelligence para fazer o curso?",
-      answer: "Não é necessário ter conhecimento prévio em BI para se beneficiar deste curso. Nossos módulos são projetados para guiar os alunos desde os fundamentos até as práticas avançadas.",
+      question:
+        "Preciso ter conhecimentos prévios em Business Intelligence para fazer o curso?",
+      answer:
+        "Não é necessário ter conhecimento prévio em BI para se beneficiar deste curso. Nossos módulos são projetados para guiar os alunos desde os fundamentos até as práticas avançadas.",
     },
     {
       question: "Quais são os requisitos técnicos para participar do curso?",
-      answer: "Você precisará de um computador com acesso à internet e capacidade para rodar o software IBM Cognos. Recomendamos um sistema operacional atualizado e um navegador web moderno.",
+      answer:
+        "Você precisará de um computador com acesso à internet e capacidade para rodar o software IBM Cognos. Recomendamos um sistema operacional atualizado e um navegador web moderno.",
     },
     {
-      question: "Como posso acessar o curso e por quanto tempo terei acesso ao material?",
-      answer: "O acesso ao curso é feito via nossa plataforma de aprendizado online, onde você pode acessar vídeos, leituras e exercícios. Após a conclusão, você terá acesso ao material do curso por mais um ano para revisão.",
+      question:
+        "Como posso acessar o curso e por quanto tempo terei acesso ao material?",
+      answer:
+        "O acesso ao curso é feito via nossa plataforma de aprendizado online, onde você pode acessar vídeos, leituras e exercícios. Após a conclusão, você terá acesso ao material do curso por mais um ano para revisão.",
     },
     {
       question: "Há suporte individual disponível durante o curso?",
-      answer: "Sim, oferecemos suporte individual através de sessões de tutoria programadas e fóruns de discussão onde você pode postar dúvidas a qualquer momento.",
+      answer:
+        "Sim, oferecemos suporte individual através de sessões de tutoria programadas e fóruns de discussão onde você pode postar dúvidas a qualquer momento.",
     },
     {
       question: "O curso oferece certificado?",
-      answer: "Sim, ao concluir o curso, você receberá um certificado digital de conclusão, validando suas habilidades e conhecimento adquirido para potenciais empregadores.",
+      answer:
+        "Sim, ao concluir cada módulo do curso você realizará uma prova que será aplicada em cada módulo e no final do curso, você receberá um certificado digital de conclusão, validando suas habilidades e conhecimento adquirido para seus gestores ou potenciais empregadores.",
     },
   ];
 
@@ -77,7 +89,8 @@ const FAQSection = () => {
             Perguntas Frequentes
           </h2>
           <p className="text-xl text-gray-300">
-            Aqui estão algumas respostas para as perguntas mais comuns sobre o curso
+            Aqui estão algumas respostas para as perguntas mais comuns sobre o
+            curso
           </p>
         </motion.div>
         <motion.div
@@ -87,22 +100,19 @@ const FAQSection = () => {
           className="text-center mb-12"
         >
           <div className="space-y-6">
-          {faqs.map((faq, index) => (
-            <FAQItem
-              key={index}
-              question={faq.question}
-              answer={faq.answer}
-              isOpen={openQuestion === index}
-              toggleOpen={() =>
-                setOpenQuestion(openQuestion === index ? null : index)
-              }
-            />
-          ))}
-        </div>
+            {faqs.map((faq, index) => (
+              <FAQItem
+                key={index}
+                question={faq.question}
+                answer={faq.answer}
+                isOpen={openQuestion === index}
+                toggleOpen={() =>
+                  setOpenQuestion(openQuestion === index ? null : index)
+                }
+              />
+            ))}
+          </div>
         </motion.div>
-
-        
-
       </div>
     </div>
   );

@@ -66,8 +66,8 @@ const EnhancedDarkLandingPageHeader = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Curso Prático IBM Cognos Analysis Studio (Analítico): De Iniciante a
-          Expert
+          Curso Prático IBM Cognos Analytics
+          (Analítico): De Iniciante a Expert
         </motion.h1>
         <iframe
         className="mx-auto shadow-lg shadow-green-900"

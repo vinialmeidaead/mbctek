@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "MBCTEK - IT Solution & EAD",
-  description: "Curso Prático IBM Cognos Analysis Studio (Analítico): De Iniciante a Expert"
+  description: "Curso Prático IBM Cognos Analytics (Analítico): De Iniciante a Expert"
 };
 
 export default function RootLayout({

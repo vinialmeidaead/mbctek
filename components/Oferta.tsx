@@ -58,7 +58,7 @@ const CombinedOffersBanner = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h2 className="text-3xl font-bold mb-4 text-green-400">
-              Oferta Geral
+              Oferta Especial
             </h2>
             <p className="text-xl text-gray-300 mb-4">
               R$ 3.999,00 por apenas R$ 2.999,00 à vista para as primeiras 50

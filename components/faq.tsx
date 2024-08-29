@@ -74,6 +74,11 @@ const FAQSection = () => {
       answer:
         "Sim, ao concluir cada módulo do curso você realizará uma prova que será aplicada em cada módulo e no final do curso, você receberá um certificado digital de conclusão, validando suas habilidades e conhecimento adquirido para seus gestores ou potenciais empregadores.",
     },
+    {
+      question: "O curso é para qual versão IBM Cognos?",
+      answer:
+        "Este curso foi desenvolvido para todas as versões lançadas pela IBM, você poderá utilizar os conhecimentos adquiridos para as ferramentas: IBM Cognos Report Studio, IBM Cognos Analysis Studio e IBM Cognos Analytics.",
+    },
   ];
 
   return (

@@ -19,6 +19,7 @@ const CurriculumSection = () => {
   };
 
   const achievements = [
+    "Atuou no Sicoob CCS (EPPC/EGPC) de 2022 a 2023, realizando mentorias técnicas para diversas áreas de negócios do CCS e ministrou este curso por vídeo chamada em 2023 paratodas as Centrais, Cooperativas e PA´s com apoio e acompanhamento da Universidade Corporativa.",
     "Mais de 30 anos atuando com a plataforma IBM Cognos",
     "Consultor especialista em Business Intelligence desde 1991",
     "Conhecedor de todas as versões lançadas pela COGNOS Software e IBM",

@@ -169,6 +169,7 @@ const CourseCurriculumSection = () => {
             />
           ))}
         </div>
+        <p className="mt-10 text-2xl md:text-5xl text-center text-green-400 font-bold">Atenção</p>
         <p className="text-xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 mt-2 text-center">
           Você que já atua com a plataforma IBM Cognos Analytics na sua empresa
           poderá acessar a ferramenta e realizar o curso. Para você que não tem

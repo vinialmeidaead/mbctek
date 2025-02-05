@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence, MotionValue } from "framer-motion";
 
@@ -62,7 +62,7 @@ const CourseModule = ({ title, topics, isOpen, toggleOpen }: any) => {
                     key={index}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.3}}
+                    transition={{ delay: 0.3 }}
                     className="text-gray-300"
                   >
                     {topic}
@@ -105,9 +105,7 @@ const CourseCurriculumSection = () => {
     },
     {
       title: "Módulo 03: Módulo de dados",
-      topics: [
-        "Criação de Módulo de Dados",
-      ],
+      topics: ["Criação de Módulo de Dados"],
     },
     {
       title: "Módulo 04: Painéis (Dashboards)",
@@ -171,6 +169,14 @@ const CourseCurriculumSection = () => {
             />
           ))}
         </div>
+        <p className="text-xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 mt-2 text-center">
+          Você que já atua com a plataforma IBM Cognos Analytics na sua empresa
+          poderá acessar a ferramenta e realizar o curso. Para você que não tem
+          acesso à ferramenta, basta contratá-la no site da IBM que possibilita
+          a utilização por 30 dias de forma gratuita (Free), envie-nos mensagem
+          para contato@mbctek.com.br que enviaremos o link para download da
+          ferramenta.
+        </p>
 
         <motion.div
           className="text-center mt-12"
@@ -185,7 +191,6 @@ const CourseCurriculumSection = () => {
             href="#oferta"
           >
             GARANTIR MINHA MATRÍCULA
-            
           </motion.a>
         </motion.div>
       </div>
